@@ -2,7 +2,7 @@
 export default function Index() {
   return (
     <div className=" ">
-      Remix project
+      Remix  
     </div>
   );
 }
