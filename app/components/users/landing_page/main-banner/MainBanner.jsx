@@ -8,6 +8,7 @@ const MainBanner = () => {
                         <h1 className="text-white font-[700] text-[44px] tracking-wide ">Search Luxury Flats & Rooms</h1>
                         <p className="text-white font-[400] text-[14px] mt-3 mb-[35px] ">Thousands of luxury flats and rooms enthusiasts just like you visit our website</p>
 
+
                         <div >
                             <div className="bg-white h-[50px] w-[80%] mx-auto rounded-lg p-2 ps-4  flex justify-between">
                                 <input
