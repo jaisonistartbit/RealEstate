@@ -1,4 +1,4 @@
-import { ArrowRightLeft, MapPin } from "lucide-react"
+import { ArrowRightLeft, Bookmark, MapPin } from "lucide-react"
 import './cardcss.css'
 
 const CardView = () => {
@@ -11,10 +11,11 @@ const CardView = () => {
 
 
                     return <div key={key} className="col-span-4 border rounded-lg">
-                        <div className={`bg-[url(/images/flats/FlatPhoto5.jpg)] w-[100%] h-[250px] bg-center bg-no-repeat bg-cover rounded-tl-lg rounded-tr-lg `}>
-                            <div className="h-[100%] w-[100%] rounded-tl-lg rounded-tr-lg  bg-black  bg-opacity-40  card-hidden">
-d
- 
+                        <div className={`bg-[url(/images/flats/FlatPhoto5.jpg)] w-[100%] h-[250px] bg-center bg-no-repeat bg-cover rounded-tl-lg rounded-tr-lg image-div`}>
+                             <div className="h-[100%] w-[100%] rounded-tl-lg rounded-tr-lg  bg-black  bg-opacity-40  card-hidden  relative">
+
+                                 <Bookmark style={{color:'rgb(251 146 60)',backgroundColor:'white' ,borderRadius:'50%',padding:'7px' ,height:'36px',width:'36px' ,margin:'auto',position:'absolute',bottom:'0',top:'0',right:'0',left:'0'}} /> 
+
                             </div>
                         </div>
                         <div className="px-3 py-2">

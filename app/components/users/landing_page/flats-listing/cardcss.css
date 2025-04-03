@@ -1,7 +1,7 @@
 .card-hidden{
-    display: hidden;
+    display: none;
 }
 
-/* .card-hidden:hover{
+.image-div:hover .card-hidden{
     display: block;
-} */
+}
