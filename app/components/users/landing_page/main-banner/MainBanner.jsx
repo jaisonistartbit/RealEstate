@@ -38,12 +38,7 @@ const MainBanner = () => {
                 </div>
 
             </div>
-            {/* <img
-                src="/images/landing-page/banner-main-image.jpg"
-                alt=""
-                className="w-[100%] h-[480px] "
-
-            /> */}
+   
         </div>
     )
 }
