@@ -23,20 +23,40 @@ export default function NavigationBar({ children }) {
                         </div>
                     </div>
 
-                    <div className="col-span-4 text-center" >
-                        re
+                    <div className="col-span-4 text-center flex pt-2 justify-evenly" >
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
+                            Home
+                        </div>
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
+                            Listing
+                        </div>
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
+                            Property
+                        </div>
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
+                            Pages
+                        </div>
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
+                            Blog
+                        </div>
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
+                            Contact
+                        </div>
+                         
                     </div>
 
                     <div className="col-span-4 text-center grid grid-cols-12" >
-                        <div className="col-span-4">
-                            <PhoneOutlined className="text-orange-[400]" /> <span className="text-black font-[500]">(603) 555-0123</span>
+                        <div className="col-span-4 pt-2 col-start-3">
+                            <PhoneOutlined style={{ color: 'rgb(251 146 60)' }} /> <span className="text-black font-[500]">(603) 555-0123</span>
                         </div>
 
-                        <div className="col-span-2">
-                        <span className="px-2 py-2">
-                                <UserOutlined />
+                        <div className="col-span-2 pt-2">
 
+                            <span className="   px-2 py-2 border border-gray-200 rounded-[10px]">
+                                <UserOutlined />
                             </span>
+
+
                         </div>
                         <div className="col-span-4">
                             <button className="text-orange-400 py-2 px-4 border border-orange-400  rounded-[10px]">Add Property</button>
