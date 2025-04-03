@@ -8,9 +8,9 @@ const FlatListing = () => {
                 <h1 className="text-[28px] font-[700] tracking-wide mb-2 ">
                     Today&apos;s Luxury Listings
                 </h1>
-                <p className="text-gray-500 text-[15px] font-[400] tracking-[1px]  ">Thousands of luxury flats and rooms enthusiasts just like you visit our website </p>
+                <p className="text-gray-500 text-[15px] font-[400] tracking-[1px]   ">Thousands of luxury flats and rooms enthusiasts just like you visit our website </p>
                 
-                <CardView />
+                <CardView  />
             </div>
         </div>
     )

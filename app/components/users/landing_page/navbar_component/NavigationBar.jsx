@@ -59,7 +59,7 @@ export default function NavigationBar({ children }) {
 
                         </div>
                         <div className="col-span-4">
-                            <button className="text-orange-400 py-2 px-4 border border-orange-400  rounded-[10px]">Add Property</button>
+                            <button className="text-orange-400 py-2 px-4 border border-orange-400  rounded-[10px] hover:bg-orange-400 hover:text-white">Add Property</button>
                         </div>
                     </div>
                 </nav>

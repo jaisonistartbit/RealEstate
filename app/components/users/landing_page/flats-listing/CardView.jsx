@@ -3,16 +3,17 @@ import './cardcss.css'
 
 const CardView = () => {
 
-    const images = ['/images/flats/FlatPhoto.jpg', '/images/flats/FlatPhoto1.jpg', '/images/flats/FlatPhoto2.jpg', '/images/flats/FlatPhoto3.jpg', '/images/flats/FlatPhoto4.jpg']
+    const images = ['/images/flats/FlatPhoto5.jpg', '/images/flats/FlatPhoto1.jpg', '/images/flats/FlatPhoto2.jpg', '/images/flats/FlatPhoto3.jpg', '/images/flats/FlatPhoto4.jpg']
     return (
-        <div className="w-[80%] mx-auto grid grid-cols-12 gap-[40px] mt-5 mb-5">
+        <div className="w-[80%] mx-auto grid grid-cols-12 gap-[40px] mt-[50px] mb-5">
             {
                 images?.map((item, key) => {
 
 
                     return <div key={key} className="col-span-4 border rounded-lg">
-                        <div className={`bg-[url(/images/flats/FlatPhoto5.jpg)] w-[100%] h-[250px] bg-center bg-no-repeat bg-cover rounded-tl-lg rounded-tr-lg image-div`}>
-                             <div className="h-[100%] w-[100%] rounded-tl-lg rounded-tr-lg  bg-black  bg-opacity-40  card-hidden  relative">
+                        <div className={`bg-[url(${item})] w-[100%] h-[250px] bg-center bg-no-repeat bg-cover rounded-tl-lg rounded-tr-lg image-div `}>
+                             <div className="h-[100%] w-[100%] rounded-tl-lg rounded-tr-lg  bg-black  bg-opacity-40  card-hidden  relative pt-4 px-3">
+                                <p className="text-start"><span className="rounded-[20px] bg-orange-400 text-white px-3 py-1  text-[12px] me-1 font-[700]">Featured</span> <span className="rounded-[20px] bg-gray-700 text-white px-5 py-1  text-[12px] me-1 font-[700] ">Rent</span></p>
 
                                  <Bookmark style={{color:'rgb(251 146 60)',backgroundColor:'white' ,borderRadius:'50%',padding:'7px' ,height:'36px',width:'36px' ,margin:'auto',position:'absolute',bottom:'0',top:'0',right:'0',left:'0'}} /> 
 

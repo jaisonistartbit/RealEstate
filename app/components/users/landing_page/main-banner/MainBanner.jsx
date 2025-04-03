@@ -26,7 +26,7 @@ const MainBanner = () => {
 
                                     </div>
 
-                                    <button className="bg-orange-400 text-[16px] text-white font-[600]  w-[100px] px-3 py-1 rounded-lg flex ">Search <span className="pt-[0px]"><SearchOutlined className="ms-1" style={{ color: 'white', fontSize: '15px', fontWeight: '500' }} /></span>  </button>
+                                    <button className="bg-orange-400 text-[16px] text-white font-[600]  w-[100px] px-3 py-1 rounded-lg flex  ">Search <span className="pt-[0px]"><SearchOutlined className="ms-1" style={{ color: 'white', fontSize: '15px', fontWeight: '500' }} /></span>  </button>
                                 </div>
 
                             </div>
