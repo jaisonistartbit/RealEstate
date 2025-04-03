@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import './NavigationBarCss.css'
-import { DownOutlined, PhoneOutlined, UserOutlined } from "@ant-design/icons";
+import { DownOutlined,   UserOutlined } from "@ant-design/icons";
+import { Phone } from "lucide-react";
 export default function NavigationBar({ children }) {
     return (
         <div>
@@ -46,8 +47,8 @@ export default function NavigationBar({ children }) {
                     </div>
 
                     <div className="col-span-4 text-center grid grid-cols-12" >
-                        <div className="col-span-4 pt-2 col-start-3">
-                            <PhoneOutlined style={{ color: 'rgb(251 146 60)' }} /> <span className="text-black font-[500]">(603) 555-0123</span>
+                        <div className="col-span-4 pt-2 col-start-3 flex">
+                            <Phone  style={{ color: 'rgb(251 146 60)',height:'18px',marginTop:'3px' }} /> <span className="text-black font-[500]">(603) 555-0123</span>
                         </div>
 
                         <div className="col-span-2 pt-2">
