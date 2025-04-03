@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
 import './NavigationBarCss.css'
-import { PhoneOutlined, UserOutlined } from "@ant-design/icons";
+import { DownOutlined, PhoneOutlined, UserOutlined } from "@ant-design/icons";
 export default function NavigationBar({ children }) {
     return (
         <div>
             <div>
                 <nav className="  grid grid-cols-12    px-5 py-2">
 
-                    <div className="col-span-4 grid grid-cols-10" >
-                        <div className="col-span-1 pt-[2px] " >
+                    <div className="col-span-3 grid grid-cols-10" >
+                        <div className="col-span-2 pt-[2px] " >
                             <img src="/svgs/logo.svg " alt="" className="h-[30px] w-[30px] m-auto" />
                         </div>
                         <div className="col-span-3 font-[700] " >
@@ -23,24 +23,24 @@ export default function NavigationBar({ children }) {
                         </div>
                     </div>
 
-                    <div className="col-span-4 text-center flex pt-2 justify-evenly" >
-                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
-                            Home
+                    <div className="col-span-5 text-center flex pt-2 justify-evenly" >
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
+                            Home <DownOutlined style={{fontSize:'10px'}} />
                         </div>
-                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
-                            Listing
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
+                            Listing <DownOutlined style={{fontSize:'10px'}} />
                         </div>
-                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
-                            Property
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
+                            Property <DownOutlined style={{fontSize:'10px'}} />
                         </div>
-                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
-                            Pages
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
+                            Pages <DownOutlined style={{fontSize:'10px'}} />
                         </div>
-                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
-                            Blog
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
+                            Blog <DownOutlined style={{fontSize:'10px'}} />
                         </div>
-                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8">
-                            Contact
+                        <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
+                            Contact  
                         </div>
                          
                     </div>

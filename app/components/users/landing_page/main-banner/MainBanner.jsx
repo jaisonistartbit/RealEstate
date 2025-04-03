@@ -1,3 +1,4 @@
+import { SearchOutlined } from "@ant-design/icons"
 
 const MainBanner = () => {
     return (
@@ -16,7 +17,18 @@ const MainBanner = () => {
                                     type="text"
                                     placeholder="Place, neighbourhood, school or agent..."
                                 />
-                                <button className="bg-orange-400 text-white font-[600]  w-[100px] px-3 py-1 rounded-lg ">Search </button>
+                                <div className="flex  gap-2">
+                                    <div>
+                                        <span className="  ">
+                                            <img src="/icons/filterIcon.png " alt="" className="h-[24px] w-[22px] mt-1 bg-transparent cursor-pointer"  />
+
+                                        </span>
+
+                                    </div>
+
+                                    <button className="bg-orange-400 text-[16px] text-white font-[600]  w-[100px] px-3 py-1 rounded-lg flex ">Search <span className="pt-[0px]"><SearchOutlined className="ms-1" style={{ color: 'white', fontSize: '15px', fontWeight: '500' }} /></span>  </button>
+                                </div>
+
                             </div>
 
                         </div>
