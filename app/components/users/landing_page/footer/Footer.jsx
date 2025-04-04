@@ -4,12 +4,12 @@ export default function Footer() {
     return (
         <footer
             className="bg-gray-900 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
-            <div className="w-[90%] mx-auto">
+            <div className=" container mx-auto">
 
                 <div style={{borderBottom:'1px solid gray'}}
-                    className="flex items-center justify-center   border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between ">
-                    <div className="mr-12 hidden lg:block">
-                        <div className="flex gap-2" >
+                    className="block sm:flex md:flex sm:flex items-center justify-center   border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between ">
+                    <div className="lg:mr-12 md:mr-12  sm:mr-12 mb-5 sm:mb-0">
+                        <div className="flex gap-2 lg:mr-12 md:mr-12  sm:mr-12   mx-auto" >
                             <div className="  pt-[2px] " >
                                 <img src="/svgs/logo.svg " alt="" className="h-[30px] w-[30px] m-auto" />
                             </div>
@@ -26,13 +26,13 @@ export default function Footer() {
                         </div>
                     </div>
                     {/* <!-- Social network icons container --> */}
-                    <div className="flex justify-center gap-[40px]">
-                        <div className="flex gap-[20px]">
+                    <div className="block sm:flex md:flex sm:flex  justify-center gap-[40px]">
+                        <div className="flex gap-[20px] mb-5 sm:mb-0 ">
                             <div className="">
                                 <Phone style={{ color: 'rgb(251 146 60)', height: '36px', width: "32px", marginTop: '5px' }} />
 
                             </div>
-                            <div>
+                            <div className="text-start">
                                 <p className="text-gray-400 text-[15px]">
                                     Call us
                                 </p>
@@ -42,12 +42,12 @@ export default function Footer() {
                             </div>
 
                         </div>
-                        <div className="flex gap-[20px]">
+                        <div className="flex gap-[20px] mb-5 sm:mb-0">
                             <div className="">
                                 <Mail  style={{ color: 'rgb(251 146 60)', height: '36px', width: "32px", marginTop: '5px' }} />
 
                             </div>
-                            <div>
+                            <div className="text-start">
                                 <p className="text-gray-400 text-[15px]">
                                     Nee live help
                                 </p>

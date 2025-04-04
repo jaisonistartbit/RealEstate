@@ -31,7 +31,7 @@ const MainBanner = () => {
                             </div>
                             <div className=" pt-3 ">
 
-                                <button className="  flex  bg-orange-400 text-[16px] text-white font-[600]     mx-auto px-3 py-1 rounded-lg ">Search  </button>
+                                <button className="  flex lg:hidden md:hidden  sm:hidden    bg-orange-400 text-[16px] text-white font-[600]   mx-auto px-3 py-1 rounded-lg ">Search  </button>
                             </div>
                         </div>
                     </div>
