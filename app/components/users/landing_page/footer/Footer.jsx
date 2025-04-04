@@ -165,7 +165,7 @@ export default function Footer() {
                             <p className="text-[14px] text-white mb-3">Sign up to recieve the latest article</p>
                             <input placeholder="your email address" className="w-[100%] py-2 bg-transparent border border-1xl rounded-lg px-3 mb-2">
                             </input>
-                            <button className="bg-orange-400 text-[16px] text-white font-[600]  w-[100%]   py-3 rounded-lg   text-center ">Subscribe </button>
+                            <button className="bg-orange-400 text-[16px] text-white font-[600]  w-[100%]   py-3 rounded-lg   text-center hover:border  hover:border-orange-400 hover:text-orange-400 hover:bg-white">Subscribe </button>
                             <div className="text-gray-400 cursor-pointer text-[13px]">
 
                                 <input type="checkbox" className="mt-3"></input> I have read and agreed to all terms and conditions.

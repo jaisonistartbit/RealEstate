@@ -2,7 +2,7 @@ import CardView from "./CardView"
 
 const FlatListing = () => {
     return (
-        <div className=" px-5">
+        <div className="  ">
             <div className="text-center mt-[50px] ">
 
                 <h1 className="text-[28px] font-[700] tracking-wide mb-2 ">
