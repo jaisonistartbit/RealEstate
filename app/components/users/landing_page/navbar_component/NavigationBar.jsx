@@ -6,9 +6,9 @@ export default function NavigationBar({ children }) {
     return (
         <div>
             <div>
-                <nav className="  grid grid-cols-12    px-5 py-2">
+                <nav className="  grid grid-cols-12      px-5 py-2">
 
-                    <div className="col-span-3 grid grid-cols-10" >
+                    <div className="col-span-12 lg:col-span-3 md:col-span-5 sm:col-span-12 grid grid-cols-10" >
                         <div className="col-span-2 pt-[2px] " >
                             <img src="/svgs/logo.svg " alt="" className="h-[30px] w-[30px] m-auto" />
                         </div>
@@ -24,7 +24,7 @@ export default function NavigationBar({ children }) {
                         </div>
                     </div>
 
-                    <div className="col-span-5 text-center flex pt-2 justify-evenly" >
+                    <div className="col-span-12 lg:col-span-5 md:col-span-7 sm:col-span-12  text-center flex pt-2 justify-evenly" >
                         <div className="text-[16px] hover:text-[17px]  text-black hover:text-orange-400 cursor-pointer hover:underline decoration-2 underline-offset-8 hover:font-[600]">
                             Home <DownOutlined style={{fontSize:'10px'}} />
                         </div>
@@ -46,7 +46,7 @@ export default function NavigationBar({ children }) {
                          
                     </div>
 
-                    <div className="col-span-4 text-center grid grid-cols-12" >
+                    <div className="col-span-12 lg:col-span-4 md:col-span-6 sm:col-span-12  text-center grid grid-cols-12" >
                         <div className="col-span-4 pt-2 col-start-3 flex">
                             <Phone  style={{ color: 'rgb(251 146 60)',height:'18px',marginTop:'3px' }} /> <span className="text-black font-[500]">(603) 555-0123</span>
                         </div>
