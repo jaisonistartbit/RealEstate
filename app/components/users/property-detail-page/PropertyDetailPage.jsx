@@ -130,15 +130,15 @@ export default function PropertyDetailPage() {
             <div className=" max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 gap-4 my-[50px]">
 
                 {/* Map Section */}
-                <div className="lg:col-span-2   mx-auto p-4">
+                <div className="lg:col-span-2   ">
                     <h2 className="text-xl   font-semibold mb-2">Get Direction</h2>
-                    <img src="/images/flats/map.png" className="w-[100%] h-[300px] object-cover rounded-lg" alt="Map" />
+                    <img src="/images/flats/map.png" className="w-[100%] h-[400px] object-cover rounded-lg" alt="Map" />
                 </div>
 
                 {/* 360 Virtual Tour */}
                 <div className="  mx-auto  ">
                     <h2 className="text-xl   font-semibold mb-2">360 Virtual Tour</h2>
-                    <img src="/images/flats/FlatPhoto4.jpg" className="w-[100%] h-[300px] object-cover rounded-lg" alt="360 View" />
+                    <img src="/images/flats/FlatPhoto4.jpg" className="w-[100%] h-[400px] object-cover rounded-lg" alt="360 View" />
                 </div>
             </div>
 
