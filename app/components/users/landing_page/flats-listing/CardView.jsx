@@ -1,7 +1,10 @@
+import PropTypes from "prop-types"
 import { ArrowRightLeft, Bookmark, MapPin } from "lucide-react";
 import './cardcss.css';
+import { useNavigate } from "@remix-run/react";
 
-const CardView = () => {
+
+const CardView = ({item,key}) => {
   const images = [
     '/images/flats/FlatPhoto5.jpg',
     '/images/flats/FlatPhoto1.jpg',
@@ -9,11 +12,15 @@ const CardView = () => {
     '/images/flats/FlatPhoto3.jpg',
     '/images/flats/FlatPhoto4.jpg',
   ];
+  const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-3 gap-8 mt-12 mb-5">
-      {images.map((item, key) => (
-        <div key={key} className="border rounded-lg overflow-hidden">
+
+      
+        <div onClick={() => {
+          navigate(`/property/tssd`);
+
+        }} key={key} className="border rounded-lg overflow-hidden cursor-pointer" >
           <div
             style={{ backgroundImage: `url(${item})` }}
             className="h-[250px] bg-center bg-no-repeat bg-cover image-div"
@@ -86,9 +93,13 @@ const CardView = () => {
             </div>
           </div>
         </div>
-      ))}
-    </div>
+    
   );
 };
+
+CardView.propTypes = {
+  item: PropTypes.any,
+  key: PropTypes.any
+}
 
 export default CardView;
