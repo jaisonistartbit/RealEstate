@@ -13,7 +13,7 @@ export default function Books() {
 
   return (
     <div>
-      <h1>Books</h1>
+      <h1>Properties</h1>
       <ul>
         {books.map(book => (
           <li key={book?.id}>
